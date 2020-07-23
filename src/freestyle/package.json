@@ -30,7 +30,7 @@
     "azure-pipelines-task-lib": "^2.8.0"
   },
   "devDependencies": {
-    "@types/chai": "4.2.11",
+    "@types/chai": "4.2.12",
     "@types/mocha": "7.0.2",
     "@types/node": "12.12.46",
     "@types/q": "1.5.4",
