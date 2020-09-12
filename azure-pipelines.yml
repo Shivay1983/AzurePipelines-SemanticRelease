@@ -21,9 +21,9 @@ steps:
 #     SourceFolder: '$(Build.SourcesDirectory)/dist'
 #     Contents: '!(*.vsix)'
 
-# - task: PublishBuildArtifacts@1
-#   continueOnError: true
-#   inputs:
-#     PathtoPublish: ''
-#     ArtifactName: 'drop'
-#     publishLocation: 'Container'
+ - task: PublishBuildArtifacts@1
+   continueOnError: true
+   inputs:
+     PathtoPublish: ''
+     ArtifactName: 'drop'
+     publishLocation: 'Container'
